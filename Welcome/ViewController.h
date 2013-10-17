@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UILabel *welcome;
+    IBOutlet UITextField *text;
+    
+    
+
+}
+
+-(IBAction)Click:(id)sender;
+-(IBAction)Click2:(id)sender;
+
 
 @end

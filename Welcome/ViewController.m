@@ -14,6 +14,16 @@
 
 @implementation ViewController
 
+-(IBAction)Click:(id)sender{
+    welcome.text = @"Welcome";
+}
+
+-(IBAction)Click2:(id)sender{
+    welcome.text = text.text;
+
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
